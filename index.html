@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description" content="Share your experience with our interactive feedback system" />
+    <meta name="keywords" content="feedback, review, customer experience" />
+    <meta name="author" content="Customer Feedback Experience" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://foodtruck-feedback.netlify.app/" />
+    <meta property="og:title" content="Customer Feedback Experience" />
+    <meta property="og:description" content="Share your food truck experience with our interactive feedback system" />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://foodtruck-feedback.netlify.app/" />
+    <meta property="twitter:title" content="Customer Feedback Experience" />
+    <meta property="twitter:description" content="Share your food truck experience with our interactive feedback system" />
+    <meta property="twitter:image" content="/og-image.jpg" />
+
+    <!-- Accessibility -->
+    <meta name="theme-color" content="#2b6777" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Disable external monitoring -->
+    <meta http-equiv="Content-Security-Policy" content="connect-src 'self' https://*.supabase.co https://*.googleapis.com https://apis.google.com;">
+    
+    <title>Customer Feedback Experience</title>
+  </head>
+  <body>
+    <div id="root" role="application" aria-label="Customer feedback application"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Google APIs for Drive integration -->
+    <script async defer src="https://apis.google.com/js/api.js"></script>
+  </body>
+</html>
